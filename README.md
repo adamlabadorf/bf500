@@ -2,4 +2,4 @@
 
 (unofficial title: Bioinformatics Engineering)
 
-[Go to the Github Pages site](https://github.com/adamlabadorf/bf550)
+[Go to the Github Pages site](https://adamlabadorf.github.io/bf550/)
