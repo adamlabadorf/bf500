@@ -1,0 +1,5 @@
+---
+title: algorithms
+---
+
+# { page.title }
