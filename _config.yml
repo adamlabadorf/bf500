@@ -31,8 +31,12 @@ defaults:
     values:
       layout: "default"
 collections:
-  lectures:
+  theory:
+    output: true
+    permalink: /:collection/:name
+  practice:
     output: true
     permalink: /:collection/:name
   project:
+    output: true
     permalink: /:collection/:name
