@@ -19,23 +19,22 @@ permalink: /
     <td>{{ lec.lecnum }}</td>
     <td>{{ lec.date }}</td>
     <td>
-      {%- if lec.lecnum != "" -%}
-        {% assign url = "/lectures/" | append: lec.theory_slug %}
-        {% assign page = site.lectures | where:"slug", lec.theory_slug | first  %}
-        <a href="lectures/{{ lec.theory_slug }}.html">{{ page.title }}</a>
+      {%- if lec.lecnum != nil and lec.theory_slug != nil -%}
+        {% assign page = site.theory | where:"slug", lec.theory_slug | first  %}
+        <a href="theory/{{ lec.theory_slug }}.html">{{ page.title }}</a>
       {%- else -%}
         {{ lec.comment }}
       {%- endif -%}
     </td>
     <td>
-      {%- if lec.lecnum != "" -%}
-        {% assign page = site.lectures | find:"id", lec.practice_slug %}
-        <a href="lectures/{{ lec.practice_slug }}.html">{{ page.title }}</a>
+      {%- if lec.practice_slug != nil -%}
+        {% assign page = site.practice | where:"slug", lec.practice_slug | first %}
+        <a href="practice/{{ lec.practice_slug }}.html">{{ page.title }}</a>
       {%- endif -%}
     </td>
     <td>
-      {%- if lec.lecnum != "" -%}
-        {% assign page = site.lectures | find:"id", lec.project_slug %}
+      {%- if lec.project_slug != nil -%}
+        {% assign page = site.project | where:"slug", lec.project_slug | first %}
         <a href="project/{{ lec.project_slug }}.html">{{ page.title }}</a>
       {%- endif -%}
     </td>
@@ -43,12 +42,4 @@ permalink: /
 {% endfor %}
 </table>
 
-{% for lec in site.lectures %}
-  {{ lec.id }}<br/>
-{% endfor %}
-
-{{ site.lectures["/lectures/intro"]}}
-
-{{ site.lectures | where: "id", "the_scripting_workflow" }}
-
-![pipeline project](bf550_pipeline.png)
+![pipeline project](/assets/bf550_pipeline.png)
