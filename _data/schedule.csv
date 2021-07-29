@@ -1,4 +1,4 @@
-lecnum,date,theory-slug,practice-slug,project-slug,comment
+lecnum,date,theory_slug,practice_slug,project_slug,comment
 1,9/3/2021,intro,cli-tools,nuc-freq,
 2,9/8/2021,the-scripting-workflow,git-github,,
 3,9/10/2021,project-org,conda,kmer-analysis,
@@ -27,4 +27,4 @@ lecnum,date,theory-slug,practice-slug,project-slug,comment
 24,12/1/2021,cloud-computing,aws,,
 25,12/3/2021,,,genome-summary,
 26,12/8/2021,,,,
-27,12/10/2021,,,reproducibility-check-2,
+27,12/10/2021,,,,
