@@ -25,7 +25,6 @@
             {%- assign prev = site.data.schedule[prev_i] -%}
             {%- if type == "theory" -%}
                 {%- assign page = site.theory | where:"slug", prev.theory_slug | first  -%}
-{{ prev }}
 <a href="theory/{{ prev.theory_slug }}.html">{{ page.title }}</a>
             {%- else -%}
                 {%- assign page = site.practice | where:"slug", prev.practice_slug | first  -%}
