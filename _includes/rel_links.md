@@ -26,7 +26,7 @@
             {%- if type == "theory" -%}
                 {%- assign page = site.theory | where:"slug", prev.theory_slug | first  -%}
 {{ prev }}
-<a href="/theory/{{ prev.theory_slug }}.html">{{ page.title }}</a>
+<a href="theory/{{ prev.theory_slug }}.html">{{ page.title }}</a>
             {%- else -%}
                 {%- assign page = site.practice | where:"slug", prev.practice_slug | first  -%}
 <a href="practice/{{ prev.practice_slug }}.html">{{ page.title }}</a>
@@ -37,10 +37,10 @@
         {%- if next  -%}
             {%- if type == "theory" -%}
                 {%- assign page = site.theory | where:"slug", next.theory_slug | first  -%}
-<a href="/theory/{{ next.theory_slug }}.html">{{ page.title }}</a>
+<a href="theory/{{ next.theory_slug }}.html">{{ page.title }}</a>
             {%- else -%}
                 {%- assign page = site.practice | where:"slug", next.practice_slug | first  -%}
-<a href="/practice/{{ next.practice_slug }}.html">{{ page.title }}</a>
+<a href="practice/{{ next.practice_slug }}.html">{{ page.title }}</a>
             {%- endif -%}
         {%- endif -%}
 
