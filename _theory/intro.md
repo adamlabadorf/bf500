@@ -4,9 +4,7 @@ title: Introduction/Scripting Basics
 
 # {{ page.title }}
 
-
 {% include rel_links.md slug=page.slug %}
-
 
 1. A Bioinformatician's Life
     1. Writing lots and lots of (often messy) code in several different languages
