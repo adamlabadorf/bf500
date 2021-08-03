@@ -16,7 +16,7 @@ complete microbial genome analysis pipeline.
 
 ## Project: Microbial Genome Analysis Pipeline
 
-![pipeline project](/assets/bf550_pipeline.png)
+![pipeline project](/assets/images/bf550_pipeline.png)
 
 Students will implement the above depicted pipeline incrementally throughout the
 semester. Each box is a separate analysis (i.e. script) that should be written
