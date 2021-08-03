@@ -6,6 +6,52 @@ permalink: /
 
 (unofficial title: Bioinformatics Engineering)
 
+This course introduces students to the key concepts, techniques, and technologies
+used in implementing modern bioinformatic analyses and workflows. The materials
+are split into "theory" and "practice" segments that focus on the various aspects
+of software engineering, computer science, data management, and other topics
+relevant to the practice of bioinformatics. There is one project that spans the
+entire semester where students will incorporate what they learn into writing a
+complete microbial genome analysis pipeline.
+
+## Project: Microbial Genome Analysis Pipeline
+
+![pipeline project](/assets/bf550_pipeline.png)
+
+Students will implement the above depicted pipeline incrementally throughout the
+semester. Each box is a separate analysis (i.e. script) that should be written
+independently and composed together into a holistic pipeline by the end of the
+course. The number by each box indicates the order in which we will complete
+the analyses. Students will not only learn how to write the analysis code needed
+to implement the pipeline but will also incorporate reproducibility practices as
+they go. Halfway through the semester, students will work in pairs to run each
+others pipelines as a "reproducibility check." The pipeline culminates in an
+automated report that describes and visualizes statistics gathered by the pipeline.
+
+Every student will use git and github to host their pipelines and share them with
+the rest of the class (and the world).
+
+Everyone will use the same microbial genome while developing their pipeline.
+
+## Final Project: Apply your microbial genome analysis pipeline to a different genome
+
+For the final project, students will apply their pipeline to a different microbial
+genome of their choosing and compare the results with that used in development.
+
+## Grading
+
+**Pipeline project - 90%** A component of the pipeline is assigned each week.
+Your code should be committed and pushed to a github repo where you will receive
+feedback from your TA. You will be primarily graded on effort, rather than on
+whether the code works or not. Feedback will consist of stylistic commentary and
+overall code organization/quality consistent with the principles covered in class.
+
+**Final project - 10%** In the final project you will apply your pipeline to a
+different microbial genome and compare the results to your previous run. You will
+write a short report summarizing the results.
+
+## Course Schedule
+
 <table>
   <tr>
     <th>Lec Num</th>
@@ -41,5 +87,3 @@ permalink: /
   </tr>
 {% endfor %}
 </table>
-
-![pipeline project](/assets/bf550_pipeline.png)
