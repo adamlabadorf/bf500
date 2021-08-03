@@ -21,25 +21,29 @@
 
     {%- else -%}
         {%- if i > 0 -%}
+        Previous:
             {%- assign prev_i = i | minus: 1 -%}
             {%- assign prev = site.data.schedule[prev_i] -%}
             {%- if type == "theory" -%}
                 {%- assign page = site.theory | where:"slug", prev.theory_slug | first  -%}
-<a href="theory/{{ prev.theory_slug }}.html">{{ page.title }}</a>
+<a href="{{ prev.theory_slug }}.html">{{ page.title }}</a>
             {%- else -%}
                 {%- assign page = site.practice | where:"slug", prev.practice_slug | first  -%}
-<a href="practice/{{ prev.practice_slug }}.html">{{ page.title }}</a>
+<a href="{{ prev.practice_slug }}.html">{{ page.title }}</a>
             {%- endif -%}
+&nbsp; \| &nbsp;
         {%- endif -%}
+
         {%- assign next_i = i | plus: 1 -%}
         {%- assign next = site.data.schedule[next_i] -%}
         {%- if next  -%}
+        Next: 
             {%- if type == "theory" -%}
                 {%- assign page = site.theory | where:"slug", next.theory_slug | first  -%}
-<a href="theory/{{ next.theory_slug }}.html">{{ page.title }}</a>
+<a href="{{ next.theory_slug }}.html">{{ page.title }}</a>
             {%- else -%}
                 {%- assign page = site.practice | where:"slug", next.practice_slug | first  -%}
-<a href="practice/{{ next.practice_slug }}.html">{{ page.title }}</a>
+<a href="{{ next.practice_slug }}.html">{{ page.title }}</a>
             {%- endif -%}
         {%- endif -%}
 
