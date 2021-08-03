@@ -4,6 +4,8 @@ title: The Scripting Workflow
 
 # {{ page.title }}
 
+{% include rel_links.md slug=page.slug %}
+
 1. The Script: The Fundamental Unit of Bioinformatics Engineering
   1. A script is a file that contains code that can be executed
   2. Transforms a set of input files into one or more output files
