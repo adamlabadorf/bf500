@@ -29,7 +29,12 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "default"
+      layout: "page"
+  -
+    scope:
+        path: "index.md"
+    values:
+        layout: "default"
 collections:
   theory:
     output: true

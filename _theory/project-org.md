@@ -1,8 +1,7 @@
 ---
 title: Project Organization
+layout: page
 ---
-
-# { page.title }
 
 1. Anatomy of a Bioinformatics Project
     1. Computational environment (including external software)
