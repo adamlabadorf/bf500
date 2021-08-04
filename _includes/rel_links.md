@@ -1,12 +1,12 @@
 {%- for item in site.data.schedule -%}
     {%- assign i = forloop.index0 -%}
-    {%- if item.theory_slug == include.slug -%}
+    {%- if item.theory_slug == page.slug -%}
         {%- assign type = "theory" -%}
         {%- break -%}
-    {%- elsif item.practice_slug == include.slug -%}
+    {%- elsif item.practice_slug == page.slug -%}
         {%- assign type = "practice" -%}
         {%- break -%}
-    {%- elsif item.project_slug == include.slug -%}
+    {%- elsif item.project_slug == page.slug -%}
         {%- assign type = "project" -%}
         {%- break -%}
     {%- endif -%}
@@ -15,7 +15,7 @@
 {%- assign curr = site.data.schedule[i] -%}
 
 {%- if i == empty -%}
-    Could not find flanking links for {{ include.slug }}
+    Could not find flanking links for {{ page.slug }}
 {%- else -%}
     {%- if type == "project" -%}
 
@@ -31,7 +31,7 @@
                 {%- assign page = site.practice | where:"slug", prev.practice_slug | first  -%}
 <a href="{{ prev.practice_slug }}.html">{{ page.title }}</a>
             {%- endif -%}
-&nbsp; \| &nbsp;
+&nbsp; | &nbsp;
         {%- endif -%}
 
         {%- assign next_i = i | plus: 1 -%}
