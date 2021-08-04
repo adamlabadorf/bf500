@@ -25,8 +25,8 @@ rule rast_process :
     output: 'AE015451.2.gto2'
     shell:
         '''
-        singularity exec --bind $PWD:/data PATRIC-1.035.simg \
-            rast-process-genome -i /data/{input} > -o {output}
+        time singularity exec --bind $PWD:/data PATRIC-1.035.simg \
+            rast-process-genome -i /data/{input} -o {output}
         '''
 
 
