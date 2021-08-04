@@ -20,6 +20,7 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-relative-links
   - jekyll-theme-dinky
+  - jekyll-katex
 readme_index:
   enabled: true
   remove_originals: false
