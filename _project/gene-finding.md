@@ -33,7 +33,7 @@ instructions are more detailed and the task is relatively simple.
 
 Concise description of what this script should do
 
-### Hits
+### Hints
 
 Some items that help guide the student through the process, including
 references to specific techniques, commands, etc
