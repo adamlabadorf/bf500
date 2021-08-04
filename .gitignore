@@ -1,3 +1,9 @@
 _site
 .jekyll-cache
 Gemfile.lock
+*.fasta
+*.gto*
+*.gff
+*.simg
+*.swp
+.snakemake
