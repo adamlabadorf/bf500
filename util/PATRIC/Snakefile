@@ -1,0 +1,40 @@
+rule all:
+    input:
+        'AE015451.2.gff'
+
+rule dlgenome:
+    output: 'AE015451.2.fasta'
+    shell:
+        'ncbi-acc-download --format fasta AE015451.2'
+
+rule gto:
+    input: 'AE015451.2.fasta'
+    output: 'AE015451.2.gto'
+    shell:
+        '''
+        singularity exec --bind $PWD:/data PATRIC-1.035.simg \
+            rast-create-genome \
+            --scientific-name "Pseudomonas putida KT2440" \
+            --genetic-code 11 \
+            --domain Bacteria \
+            --contigs /data/{input} > {output}
+        '''
+
+rule rast_process :
+    input: 'AE015451.2.gto'
+    output: 'AE015451.2.gto2'
+    shell:
+        '''
+        singularity exec --bind $PWD:/data PATRIC-1.035.simg \
+            rast-process-genome -i /data/{input} > -o {output}
+        '''
+
+
+rule rast_export :
+    input: 'AE015451.2.gto2'
+    output: 'AE015451.2.gff'
+    shell:
+        '''
+        singularity exec --bind $PWD:/data PATRIC-1.035.simg \
+            rast-export-genome gff -i {input} -o {output}
+        '''
