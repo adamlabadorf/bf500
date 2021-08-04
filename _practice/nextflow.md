@@ -2,4 +2,3 @@
 title: nextflow
 ---
 
-# { page.title }

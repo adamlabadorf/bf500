@@ -2,4 +2,3 @@
 title: productization
 ---
 
-# { page.title }

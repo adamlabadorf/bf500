@@ -2,4 +2,3 @@
 title: conda
 ---
 
-# { page.title }

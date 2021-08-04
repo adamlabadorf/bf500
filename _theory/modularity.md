@@ -2,4 +2,3 @@
 title: modularity
 ---
 
-# { page.title }

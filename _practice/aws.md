@@ -2,4 +2,3 @@
 title: aws
 ---
 
-# { page.title }

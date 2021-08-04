@@ -2,4 +2,3 @@
 title: containerization
 ---
 
-# { page.title }

@@ -2,4 +2,3 @@
 title: algorithms
 ---
 
-# { page.title }

@@ -2,4 +2,3 @@
 title: testing
 ---
 
-# { page.title }

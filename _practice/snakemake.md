@@ -2,4 +2,3 @@
 title: snakemake
 ---
 
-# { page.title }
