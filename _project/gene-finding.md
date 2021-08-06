@@ -9,14 +9,16 @@ organizing architecture required to transcribe them into functional products.
 Gene sequences themselves are interspersed throughout the genome sequence itself
 and it is not immediately clear where they are. Computational gene annotation is
 the process of searching a genome sequence for shorter genes based on a number of
-different properties, including codon usage, promotor sequence signals, et c.
-RAST is a tool commonly used for finding and annotating genes in microbial sequences.
+different properties, including codon usage, promotor sequence signals, sequence
+similarity to other genes with known sequence from other organisms, etc.
+RAST is a tool commonly used for finding and annotating genes in microbial
+sequences.
 
 ## Problem statement
 
 Use RAST to annotate genes on a complete microbial genome.
 
-## Normal Mode
+## Baseline
 
 Normal mode is intended for students who have little computational experience. The
 instructions are more detailed and the task is relatively simple.
@@ -38,7 +40,7 @@ Concise description of what this script should do
 Some items that help guide the student through the process, including
 references to specific techniques, commands, etc
 
-## Challenge Mode
+## Challenge
 
 Challenge mode is intended for students who are already competent in programming
 and CLI usage. This should be a similar but more involved/difficult version of
