@@ -10,7 +10,7 @@ permalink: /
 
 **Location: [EPC 209](https://www.bu.edu/cpo/project/engineering-product-innovation-center/)**
 
-**Time: W/F 12:20-2:05**
+**Time: M/W 12:20-2:05 Lecture, F 12:20-2:05 Online Lab**
 
 This course introduces students to the key concepts, techniques, and technologies
 used in implementing modern bioinformatic analyses and workflows. The materials
