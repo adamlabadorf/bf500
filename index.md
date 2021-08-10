@@ -2,15 +2,13 @@
 permalink: /
 ---
 
-# BF550 - Foundations in Programming, Data Analytics, and Machine Learning in Python
+# BF500 - Bioinformatics Engineering)
 
-(unofficial title: Bioinformatics Engineering)
+**Semester: NA**
 
-**Semester: Fall 2021**
+**Location: NA**
 
-**Location: [EPC 209](https://www.bu.edu/cpo/project/engineering-product-innovation-center/)**
-
-**Time: M/W 12:20-2:05 Lecture, F 12:20-2:05 Online Lab**
+**Time: NA**
 
 This course introduces students to the key concepts, techniques, and technologies
 used in implementing modern bioinformatic analyses and workflows. The materials
@@ -58,7 +56,7 @@ You are always smarter and more knowledgable today than you were yesterday.
 
 ## Project: Microbial Genome Analysis Pipeline
 
-![pipeline project](/assets/images/bf550_pipeline.png)
+![pipeline project](/assets/images/bf500_pipeline.png)
 
 Students will implement the above depicted pipeline incrementally throughout the
 semester. Each box is a separate analysis (i.e. script) that should be written
