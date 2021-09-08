@@ -56,7 +56,7 @@ You are always smarter and more knowledgable today than you were yesterday.
 
 ## Project: Microbial Genome Analysis Pipeline
 
-![pipeline project](/assets/images/bf500_pipeline.png)
+![pipeline project]({{ site.url }}/assets/images/bf500_pipeline.png)
 
 Students will implement the above depicted pipeline incrementally throughout the
 semester. Each box is a separate analysis (i.e. script) that should be written
