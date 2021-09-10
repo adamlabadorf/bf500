@@ -2,7 +2,7 @@
 permalink: /
 ---
 
-# BF500 - Bioinformatics Engineering)
+# BF500 - Bioinformatics Engineering
 
 **Semester: NA**
 
