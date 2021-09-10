@@ -18,42 +18,6 @@ relevant to the practice of bioinformatics. There is one project that spans the
 entire semester where students will incorporate what they learn into writing a
 complete microbial genome analysis pipeline.
 
-## Course Values and Policies
-
-**Everyone is welcome.** Every background, race, color, creed, religion, ethnic
-origin, age, sex, sexual orientation, gender identity, nationality is welcome
-and celebrated in this course. Everyone deserves respect, patience, and
-kindness. Disrespectful language, discrimination, or harassment of any kind are
-not tolerated, and may result in removal from class or the University. This is
-not merely [BU policy](http://www.bu.edu/policies/policy-category/harassment-discrimination/).
-The instructors deem these principles to be inviolable human rights. Students
-should feel safe reporting any and all instances of discrimination or
-harassment to the instructor, to any of the Bioinformatics Program leadership,
-or the [BU Equal Opportunity Office](http://www.bu.edu/eoo/).
-
-**Everyone brings value.** Each of us brings unique experiences, skills, and
-creativity to this course. Our diversity is our greatest asset.
-
-**Collaboration is highly encouraged.** All students are encouraged to work
-together and seek out any and all available resources when completing projects
-in all aspects of the course, including sharing coding ideas and strategies with
-each other as well as those found on the internet. Any and all available
-resources may be brought to bear. However, consistent with BU policy, the bulk
-of your code and your final reports should be written in your own words and
-represent your own work and understanding of the material. Copying/pasting large
-sections of code is not acceptable and will be investigated as cheating (we check).
-
-**A safe space for dissent.** For complex topics such as those covered in this
-class, there is seldom one correct answer, approach, or solution. Disagreement
-fosters innovation. All in the course, including students and TAs, are
-encouraged to express constructive criticism and alternative ideas on any
-aspect of the content.
-
-**We are always learning.** Our knowledge and understanding is always
-incomplete. Even experts are fallible. The bioinformatics field evolves
-rapidly, and Rome was not built in a day. Be kind to yourself and to others.
-You are always smarter and more knowledgable today than you were yesterday.
-
 ## Project: Microbial Genome Analysis Pipeline
 
 ![pipeline project]({{ site.url }}/assets/images/bf500_pipeline.png)
@@ -127,6 +91,43 @@ write a short report summarizing the results.
   </tr>
 {% endfor %}
 </table>
+
+## Course Values and Policies
+
+**Everyone is welcome.** Every background, race, color, creed, religion, ethnic
+origin, age, sex, sexual orientation, gender identity, nationality is welcome
+and celebrated in this course. Everyone deserves respect, patience, and
+kindness. Disrespectful language, discrimination, or harassment of any kind are
+not tolerated, and may result in removal from class or the University. This is
+not merely [BU policy](http://www.bu.edu/policies/policy-category/harassment-discrimination/).
+The instructors deem these principles to be inviolable human rights. Students
+should feel safe reporting any and all instances of discrimination or
+harassment to the instructor, to any of the Bioinformatics Program leadership,
+or the [BU Equal Opportunity Office](http://www.bu.edu/eoo/).
+
+**Everyone brings value.** Each of us brings unique experiences, skills, and
+creativity to this course. Our diversity is our greatest asset.
+
+**Collaboration is highly encouraged.** All students are encouraged to work
+together and seek out any and all available resources when completing projects
+in all aspects of the course, including sharing coding ideas and strategies with
+each other as well as those found on the internet. Any and all available
+resources may be brought to bear. However, consistent with BU policy, the bulk
+of your code and your final reports should be written in your own words and
+represent your own work and understanding of the material. Copying/pasting large
+sections of code is not acceptable and will be investigated as cheating (we check).
+
+**A safe space for dissent.** For complex topics such as those covered in this
+class, there is seldom one correct answer, approach, or solution. Disagreement
+fosters innovation. All in the course, including students and TAs, are
+encouraged to express constructive criticism and alternative ideas on any
+aspect of the content.
+
+**We are always learning.** Our knowledge and understanding is always
+incomplete. Even experts are fallible. The bioinformatics field evolves
+rapidly, and Rome was not built in a day. Be kind to yourself and to others.
+You are always smarter and more knowledgable today than you were yesterday.
+
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
