@@ -44,18 +44,6 @@ Everyone will use the same microbial genome while developing their pipeline.
 For the final project, students will apply their pipeline to a different microbial
 genome of their choosing and compare the results with that used in development.
 
-## Grading
-
-**Pipeline project - 90%** A component of the pipeline is assigned each week.
-Your code should be committed and pushed to a github repo where you will receive
-feedback from your TA. You will be primarily graded on effort, rather than on
-whether the code works or not. Feedback will consist of stylistic commentary and
-overall code organization/quality consistent with the principles covered in class.
-
-**Final project - 10%** In the final project you will apply your pipeline to a
-different microbial genome and compare the results to your previous run. You will
-write a short report summarizing the results.
-
 ## Course Schedule
 
 <table>
@@ -130,6 +118,17 @@ incomplete. Even experts are fallible. The bioinformatics field evolves
 rapidly, and Rome was not built in a day. Be kind to yourself and to others.
 You are always smarter and more knowledgable today than you were yesterday.
 
+## Grading
+
+**Pipeline project - 90%** A component of the pipeline is assigned each week.
+Your code should be committed and pushed to a github repo where you will receive
+feedback from your TA. You will be primarily graded on effort, rather than on
+whether the code works or not. Feedback will consist of stylistic commentary and
+overall code organization/quality consistent with the principles covered in class.
+
+**Final project - 10%** In the final project you will apply your pipeline to a
+different microbial genome and compare the results to your previous run. You will
+write a short report summarizing the results.
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
